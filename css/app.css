@@ -1,0 +1,273 @@
+
+#install-btn {
+    background: #0088cc; 
+    background: -moz-linear-gradient(top,  #0088cc 0%, #0055cc 100%); 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0088cc), color-stop(100%,#0055cc)); 
+    background: -webkit-linear-gradient(top,  #0088cc 0%,#0055cc 100%); 
+    background: -o-linear-gradient(top,  #0088cc 0%,#0055cc 100%); 
+    background: -ms-linear-gradient(top,  #0088cc 0%,#0055cc 100%); 
+    background: linear-gradient(to bottom,  #0088cc 0%,#0055cc 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0088cc', endColorstr='#0055cc',GradientType=0 ); 
+    text-align: center;
+    font-size: 200%;
+    margin: 1em auto;
+    display: block;
+    padding: .5em;
+    color: white;
+    width: 10em;
+    max-width: 80%;
+    line-height: 1.2em;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+.loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  text-align: center;
+  color: #aaaaaa;
+}
+.list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.list ul li {
+  margin: 0;
+  padding: 1em .5em;
+  border-top: 1px solid grey;
+  cursor: pointer;
+}
+.anim-background {
+  width: 100%;
+  height: 100%;
+  background-color: #dddddd;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 10000;
+}
+x-view,
+x-listview {
+  background-color: white;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+}
+x-view > header,
+x-listview > header,
+x-view > footer,
+x-listview > footer {
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(top, #c66a00, #b54d17);
+  background: -o-linear-gradient(top, #c66a00, #b54d17);
+  background: -ms-linear-gradient(top, #c66a00, #b54d17);
+  background: -moz-linear-gradient(top, #c66a00, #b54d17);
+  background: -webkit-linear-gradient(top, #c66a00, #b54d17);
+  border-bottom: 1px solid #933212;
+  box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.7);
+  -o-box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.7);
+  -ms-box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.7);
+  color: white;
+  height: 2em;
+  padding: .5em 0;
+}
+x-view > header .navitems,
+x-listview > header .navitems {
+  height: 2em;
+  float: right;
+}
+x-view > header .navitems.left,
+x-listview > header .navitems.left {
+  top: 0;
+  left: 0;
+  float: left;
+}
+x-view > header .navitems button,
+x-listview > header .navitems button,
+x-view > footer button,
+x-listview > footer button {
+  height: 100%;
+  margin-right: .5em;
+  margin-left: 0;
+  font-size: .75em;
+  border: 0;
+}
+x-view > header .navitems.left button,
+x-listview > header .navitems.left button {
+  margin-left: .5em;
+  margin-right: 0;
+}
+x-view > header h1,
+x-listview > header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  line-height: 40pt;
+  text-align: center;
+}
+x-view > ._contents,
+x-listview > ._contents {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+}
+x-listview > ._contents > .contents {
+  padding: 0;
+}
+._list li.highlighted {
+  background-color: #99bbdd;
+}
+@keyframes slideIn {
+  
+}
+x-view > header { background: -moz-linear-gradient(center top , #D10E08, #941413) repeat scroll 0 0 transparent; }
+x-view > header button { 
+	background: transparent no-repeat center center;
+}
+button.settings { background: transparent url(../img/settings.png) no-repeat center center;   display: inline-block;
+  vertical-align: middle;
+  color: transparent;
+  font: 0/0 a;
+  overflow: hidden;
+  position: relative;
+  }
+button.back { background: transparent url(../img/back.png) no-repeat center center;   display: inline-block;
+  vertical-align: middle;
+  color: transparent;
+  font: 0/0 a;
+  overflow: hidden;
+  position: relative; 
+}
+.logo_home {
+    display: inline;
+    float: left;
+    position: relative;
+    width: 192px;
+}
+.logo_home img {height:50px;border:none;}
+.versioord {
+    color: #FFFFFF;
+    float: right;
+    padding-right: 1.3em;
+}
+.versioord a {color: #FFFFFF; text-decoration:none; font-size:0.8em; font-weight:bold;}
+#section {width:100%; padding:1em; height:3.2em;float:left;clear:right;}
+#section h1 {color: #FFFFFF; font-weight:bold; font-family: Arial,Helvetica,sans-serif; float:left;}
+#footer {
+    background: none repeat scroll 0 0 #E5E3D8;
+    color: #000000;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 0.9em;
+    margin-top: 1.5em;
+    padding: 0 0 4.5em;
+    text-align: center;
+    width: 100%;
+}
+#area, #inter {clear:left;}
+#langpairdiv #neteja { float: left; }
+#langpairdiv #langpair { text-align: center; float: center; }
+#langpairdiv #tradueix { float: right; }
+textarea {margin: 0 auto; display:block; width: 90%; font-size: 0.9em;}
+#buttons, #opcions {margin: 1.5em auto 1.3em; display:block; text-align:center;}
+#inter select {font-size:100%;}
+#buttons input {font-size:1.2em; padding: 0.4em;}
+#opcions p {padding:0.4em; margin:0.4em;}
+#opcions #unknown, #opcions #valencia {-webkit-transform: scale(1.5,1.5); -moz-transform: scale(1.3,1.3); transform: scale(1.3,1.3); margin-right: 0.4em;}
+#ad {width:240px; margin: 15px auto 10px; display:block; text-align:center;}
+#dv_traduccio {width: 90%; margin: 20px auto; display:block;}
+#dv_traduccio h3 {text-align:center; margin: 5px auto 5px;}
+#dv_traduccio textarea {width:100%;}
+.link_select {
+    font-size:0.8em;
+    padding-top:10px;
+    color:#666;
+    text-align:center;
+    margin:5px;
+}
+#dv_traduccio input {font-size:110%; padding: 5px;}
+.link_select span {
+    cursor:pointer;
+}
+#historial { display: block;margin: 50px auto 10px;}
+#mostrahistorial {float: left;}
+#netejahistorial {display:none; font-size: 85%; float:right;}
+.controls {width:100%; margin-bottom: 15px;}
+.controls a{color: #656565;}
+.histitem {clear:both; padding: 10px 0px;}
+.histitem .txt {padding-left: 15px;}
+.select {float:left;}
+.select img {width:30px;}
+a.select {text-decoration: none; color: #656565; float:none;}
+.remove {float:right;}
+#plataformes {
+    border-top: 1px solid #DDE2CC;
+    float: left;
+    margin-top: 35px;
+    padding-top: 25px;
+    width: 100%;
+}
+#logos {margin: 30px auto 10px; width:95%; float:left; border-top: 1px dotted #B4B1A2; padding: 15px;}
+#logos div {margin: 0 auto; width:100%; float:left;}
+#logos .icon, #plataformes .icon {text-align:center; width:50%;}
+#logos .left, #plataformes .left {float:left;}
+#logos .right, #plataformes .right {float:right;}
+#logos .icon a, #plataformes .icon a {text-decoration:none;}
+#logos .icon img {min-width:120px; max-width:135px;text-align:center; border:none; padding: 5px; margin-left: auto; margin-right: auto;}
+#plataformes .icon img {min-width:80px; max-width:100px;text-align:center; border:none; padding: 5px; margin-left: auto; margin-right: auto;}
+#warninternet {display:none; text-align: center; margin: 20px auto; font-size: 110%; color: red; font-weight: bold;}
+@import "fonts.css";
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'MozTTLight', Verdana, sans-serif;
+}
+h1 {
+    font: 2.2rem/4.8rem "Open Sans", Sans-serif;
+}
+x-view .contents {
+    padding: 1em;
+}
+x-view h1 {
+    margin-top: 0;
+}
+x-view.edit .field {
+    margin-top: 1em;
+}
+x-listview.list li:before {
+    content: ' ';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url(../img/glyphicons-halflings.png) no-repeat -95px -2px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+ul li {
+}

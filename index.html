@@ -1,1 +1,94 @@
-Setting up pages...
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Traductor de Softcatalà</title>
+    <meta name="description" content="Traductor de Softcatalà">
+    <meta name="viewport" content="width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <x-view class="traductor">
+      <header id="main-header">
+	<button class="settings" data-view="x-view.settings">Settings</button>
+	<h1>Translator</h1>
+	<button class="history-show" data-view="x-view.history">
+	  <span data-l10n-id="history-show" class="icon icon-history" >History</span>
+	</button>
+      </header>
+      <div id="main">
+	  <form id="ftraductor" action="#">
+	   <div id="inter">
+	   <div id="langpairdiv">
+	   <input id="neteja" value="Clear" title="Neteja els camps de text" type="button" />
+	   <select style="width:100px" id="langpair">
+	      <option value="es-ca" selected="selected">castellà » català</option>
+	      <option value="ca-es">català » castellà</option>
+	      <option value="fr-ca">francès » català (beta)</option>
+	      <option value="ca-fr">català » francès (beta)</option>
+	      <option value="en-ca">anglès » català (beta)</option>
+	      <option value="ca-en">català » anglès (beta)</option>
+	      <option value="pt-ca">portuguès » català (beta)</option>
+	      <option value="ca-pt">català » portuguès (beta)</option>
+	  </select>
+	   <input id="tradueix" value="Translate" type="submit" />
+	   </div>
+	  <div id="warninternet"></div>
+	  <div id="area">
+	  <textarea maxlength="4000" name="sl" rows="12" cols="40" id="sl"></textarea>
+	  </div><input type="hidden" value=true name="unkwown" id="unknown" /><input type="hidden" value=fase name="valencia" id="valencia" />
+	  </div>
+	  </form>
+	<div data-l10n-id="translation-header" id="dv_traduccio" style="display: none;">
+	<h3>Translation<span id="trad_info"></span></h3>
+	<textarea id="traduccio" rows="12" cols="40" ></textarea>
+	</div>
+      </div>
+      <aside id="softcatala">
+      <div id="info"><img class="icoSC" src="img/icons/softcatala-16.png" alt="Softcatalà" title="Softcatalà"><a href="http://www.softcatala.org" target="_blank" >Softcatalà</a></div>
+      </aside>
+    </x-view>
+    <x-view class="settings">
+        <header id="settings-header">
+	<h1>Settings</h1>
+      </header>
+        <ol class="settings-list">
+	  <li class="" id="unknown-check" data-l10n-id="mark-unknown">Mark Unknown</li>
+	  <li class="" id="valencia-check" data-l10n-id="Valencian variant">Valencian variant</li>
+	</ol>
+	<div id="logos">
+	    <h3 data-l10n-id="acknowledgements">Acknowledgements</h3>
+	    <p>Info about application.</p>
+	    <div>
+	      <div class="icon left"><a href="http://www.ua.es"><img class="bzero" longdesc="#" alt="Universitat d'Alacant" src="img/icons/logo_unialacant.jpg" /></a></div>
+	      <div class="icon right"><a href="http://transducens.dlsi.ua.es"><img class="bzero" longdesc="#" alt="Grup Transducens" src="img/icons/transducens.png" /></a></div>
+	    </div>
+	    <div>
+	      <div class="icon left"><a href="http://www.dlsi.ua.es/"><img class="bzero" longdesc="#" alt="Departament de LLenguatges Informàtics" src="img/icons/logo_depinformatic.jpg" /></a></div>
+	      <div class="icon right"><a href="http://www.prompsit.com"><img class="bzero" longdesc="#" alt="Prompsit" src="img/icons/prompsit.png" /></a></div>
+	    </div>
+	  </div>
+    </x-view>
+    <x-view class="history">
+      <header id="history-header">
+	<h1>History</h1>
+	<button class="clear-history">
+	  <span data-l10n-id="clear-history" class="icon" >
+	    Clear
+	  </span>
+	</button>
+      </header>
+      <div class="list"></div>
+      </div>
+    </x-view>
+        <script type="text/javascript"
+            data-main="js/init.js"
+            src="js/lib/require.js"></script>
+  </body>
+</html>
+
