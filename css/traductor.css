@@ -1,4 +1,7 @@
-x-view > header { background: -moz-linear-gradient(center top , #D10E08, #941413) repeat scroll 0 0 transparent !important; }
+x-view > header { 
+background: -webkit-gradient(linear, center top, center bottom, from(#D10E08), to(#941413)); 
+background: -moz-linear-gradient(center top , #D10E08, #941413) repeat scroll 0 0 transparent; 
+}
 x-view > header button { 
 	background: transparent no-repeat center center;
 }

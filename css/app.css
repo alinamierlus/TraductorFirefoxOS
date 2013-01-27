@@ -146,7 +146,10 @@ x-listview > ._contents > .contents {
 @keyframes slideIn {
   
 }
-x-view > header { background: -moz-linear-gradient(center top , #D10E08, #941413) repeat scroll 0 0 transparent !important; }
+x-view > header { 
+background: -webkit-gradient(linear, center top, center bottom, from(#D10E08), to(#941413)); 
+background: -moz-linear-gradient(center top , #D10E08, #941413) repeat scroll 0 0 transparent; 
+}
 x-view > header button { 
 	background: transparent no-repeat center center;
 }
@@ -241,7 +244,6 @@ a.select {text-decoration: none; color: #656565; float:none;}
 #logos .icon img {min-width:120px; max-width:135px;text-align:center; border:none; padding: 5px; margin-left: auto; margin-right: auto;}
 #plataformes .icon img {min-width:80px; max-width:100px;text-align:center; border:none; padding: 5px; margin-left: auto; margin-right: auto;}
 #warninternet {display:none; text-align: center; margin: 20px auto; font-size: 110%; color: red; font-weight: bold;}
-@import "fonts.css";
 html, body {
     height: 100%;
 }

@@ -1,7 +1,7 @@
 {
   "version": "0.1",
   "name": "Traductor",
-  "description": "Softcatalà's Mobile App Translator",
+  "description": "Softcatalà's Translator webapp",
   "launch_path": "/webapp/",
   "icons": {
     "16": "/webapp/img/icons/softcatala-16.png",
@@ -15,14 +15,20 @@
   "installs_allowed_from": ["*"],
   "appcache_path": "/webapp/manifest.appcache",
   "locales": {
+   "en": {
+      "description": "Softcatalà's Translator webapp",
+      "developer": {
+        "url": "http://traductor.softcatala.org"
+      }
+    },
     "es": {
-      "description": "Aplicación móvil del traductor de Softcatalà",
+      "description": "Aplicación web del traductor de Softcatalà",
       "developer": {
         "url": "http://traductor.softcatala.org"
       }
     },
     "ca": {
-      "description": "Aplicació mòbil del traductor de Softcatalà",
+      "description": "Aplicació web del traductor de Softcatalà",
       "developer": {
         "url": "http://traductor.softcatala.org"
       }
