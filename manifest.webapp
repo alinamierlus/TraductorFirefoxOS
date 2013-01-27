@@ -1,6 +1,6 @@
 {
   "version": "0.1",
-  "name": "Traductor SC",
+  "name": "Traductor",
   "description": "Softcatalà's Mobile App Translator",
   "launch_path": "/webapp/",
   "icons": {
