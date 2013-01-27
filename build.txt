@@ -20,8 +20,8 @@ js/lib/layouts/css/layouts.css
 
 js/lib/../app.js
 ----------------
-js/lib/receiptverifier.js
 js/lib/zepto.js
+js/lib/receiptverifier.js
 js/lib/x-tag.js
 js/lib/underscore.js
 js/lib/backbone.js
