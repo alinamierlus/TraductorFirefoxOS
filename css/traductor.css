@@ -19,13 +19,6 @@ button.back { background: transparent url(../img/back.png) no-repeat center cent
   overflow: hidden;
   position: relative; 
 }
-.logo_home {
-    display: inline;
-    float: left;
-    position: relative;
-    width: 192px;
-}
-.logo_home img {height:50px;border:none;}
 .versioord {
     color: #FFFFFF;
     float: right;
@@ -53,16 +46,12 @@ button.back { background: transparent url(../img/back.png) no-repeat center cent
 #langpairdiv-right { width:20%; float: right; }
 #langpairdiv-right input { text-align: right;  margin: 0 0 0 auto; padding-right: 1em; height: 2.5em; }
 textarea {margin: 0 auto; display:block; font-size: 1.2em; clear: both; width: 100%; }
-#buttons, #opcions {margin: 1.5em auto 1.3em; display:block; text-align:center;}
-#inter select {font-size:100%;}
-#buttons input {font-size:1.2em; padding: 0.4em;}
-#opcions p {padding:0.4em; margin:0.4em;}
-#opcions #unknown, #opcions #valencia {-webkit-transform: scale(1.5,1.5); -moz-transform: scale(1.3,1.3); transform: scale(1.3,1.3); margin-right: 0.4em;}
-#ad {width:240px; margin: 15px auto 10px; display:block; text-align:center;}
 #dv_traduccio { margin: 20px auto; display:block;}
 #dv_traduccio h3 { margin: 5px auto 5px; float: left;}
 #dv_traduccio .button-clear { float:right;  }
 #dv_traduccio .button-clear #neteja { height: 2.5em; margin-right: 0em; }
+#dv_traduccio textarea { margin-top: 1em; }
+#ad {width:240px; margin: 15px auto 10px; display:block; text-align:center;}
 .link_select {
     font-size:0.8em;
     padding-top:10px;
