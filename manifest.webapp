@@ -13,7 +13,7 @@
     "url": "http://traductor.softcatala.org"
   },
   "installs_allowed_from": ["*"],
-  "appcache_path": "/webapp/cache.manifest",
+  "appcache_path": "/webapp/manifest.appcache",
   "locales": {
     "es": {
       "description": "Aplicación móvil del traductor de Softcatalà",
