@@ -1,9 +1,10 @@
 {
+  "manifest_version": 2,
   "version": "0.1",
   "name": "Traductor Softcatalà",
   "description": "Softcatalà's Translator webapp",
   "icons": {
-    "128": "/webapp/img/icons/softcatala-128.png"
+    "128": "img/icons/softcatala-128.png"
   },
   "app": {
     "launch": {

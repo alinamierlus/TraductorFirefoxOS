@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# oo3J5oJyLNJT1ML2GrTA3Ekmc+U=
+# iXrGMBMrWhI8QwsnxNTDGcMFPhY=
 
 CACHE:
 css/install-button.css
@@ -7,7 +7,6 @@ css/traductor.css
 css/app.css
 build.txt
 index.html
-manifest.webapp
 favicon.ico
 .htaccess
 locales/locales.ini
@@ -19,7 +18,6 @@ js/lib/require.js
 js/lib/l10n.js
 js/init.js
 js/app.js
-manifest.json
 img/settings.png
 img/back.png
 img/remove.gif
