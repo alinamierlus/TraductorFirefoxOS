@@ -1,0 +1,43 @@
+CACHE MANIFEST
+# SXZOFn4r+NfGpUA28IRGxINcVtk=
+
+CACHE:
+css/install-button.css
+css/traductor.css
+css/app.css
+build.txt
+index.html
+manifest.webapp
+favicon.ico
+.htaccess
+locales/locales.ini
+js/lib/jquery.js
+js/lib/layouts/css/layouts.less
+js/lib/layouts/css/layouts.css
+js/lib/layouts/README.md
+js/lib/require.js
+js/lib/l10n.js
+js/init.js
+js/app.js
+manifest.json
+img/settings.png
+img/back.png
+img/remove.gif
+img/select.png
+img/checkmark.png
+img/icons/softcatala-16.png
+img/icons/SC_logo.png
+img/icons/logo_depinformatic.jpg
+img/icons/logo_unialacant.jpg
+img/icons/softcatala-48.png
+img/icons/prompsit.png
+img/icons/softcatala-128.png
+img/icons/transducens.png
+img/icons/softcatala.png
+img/.gitignore
+
+# catch-all for anything else
+NETWORK:
+*
+http://*
+https://*
