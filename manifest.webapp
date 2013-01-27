@@ -1,6 +1,6 @@
 {
   "version": "0.1",
-  "name": "Traductor Softcatalà",
+  "name": "Traductor SC",
   "description": "Softcatalà's Mobile App Translator",
   "launch_path": "/webapp/",
   "icons": {
@@ -14,14 +14,6 @@
   },
   "installs_allowed_from": ["*"],
   "appcache_path": "/webapp/cache.manifest",
-  "permissions": {
-    "network-http": {
-      "description": "Required to contact translation server"
-    },
-    "storage": {
-      "description": "Required to store past translations"
-    }
-  },
   "locales": {
     "es": {
       "description": "Aplicación móvil del traductor de Softcatalà",
