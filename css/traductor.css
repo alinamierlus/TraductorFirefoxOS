@@ -42,15 +42,15 @@ button.back { background: transparent url(../img/back.png) no-repeat center cent
 #langpairdiv { height: 3em; }
 #langpairdiv input, #langpairdiv select { display: block; }
 #langpairdiv-center { width: 80%;  float: left;  }
-#langpairdiv-center select { width: 100%; height: 2em; margin: 0 auto; }
+#langpairdiv-center select { width: 100%; height: 2.5em; margin: 0 auto; }
 #langpairdiv-right { width:20%; float: right; }
 #langpairdiv-right input { text-align: right;  margin: 0 0 0 auto; padding-right: 1em; height: 2.5em; }
 textarea {margin: 0 auto; display:block; font-size: 1.2em; clear: both; width: 100%; }
-#dv_traduccio { margin: 20px auto; display:block;}
-#dv_traduccio h3 { margin: 5px auto 5px; float: left;}
+#dv_traduccio { margin: 2em auto 2em; display:block; width:100%; }
+#dv_traduccio h3 { float: left;}
 #dv_traduccio .button-clear { float:right;  }
 #dv_traduccio .button-clear #neteja { height: 2.5em; margin-right: 0em; }
-#dv_traduccio textarea { margin-top: 1em; }
+#dv_traduccio textarea { margin-top: 1.5em; }
 #ad {width:240px; margin: 15px auto 10px; display:block; text-align:center;}
 .link_select {
     font-size:0.8em;
