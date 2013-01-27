@@ -2,24 +2,24 @@
   "version": "0.1",
   "name": "Traductor Softcatalà",
   "description": "Softcatalà's Mobile App Translator",
-  "launch_path": "/",
+  "launch_path": "/webapp/",
   "icons": {
-    "16": "/img/icons/softcatala-16.png",
-    "48": "/img/icons/softcatala-48.png",
-    "128": "/img/icons/softcatala-128.png"
+    "16": "/webapp/img/icons/softcatala-16.png",
+    "48": "/webapp/img/icons/softcatala-48.png",
+    "128": "/webapp/img/icons/softcatala-128.png"
   },
   "developer": {
     "name": "Softcatalà",
     "url": "http://traductor.softcatala.org"
   },
   "installs_allowed_from": ["*"],
-  "appcache_path": "/cache.manifest",
+  "appcache_path": "/webapp/cache.manifest",
   "permissions": {
    "network-http": {
     "description": "Required for connecting to Softcatalà servers",
    },
    "storage": {
-    "description:" "Required for storing past translations"
+    "description": "Required for storing past translations"
    }
   }
   "locales": {
