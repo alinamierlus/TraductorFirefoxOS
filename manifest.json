@@ -1,0 +1,13 @@
+{
+  "version": "0.1",
+  "name": "Traductor Softcatalà",
+  "description": "Softcatalà's Translator webapp",
+  "icons": {
+    "128": "/webapp/img/icons/softcatala-128.png"
+  },
+  "app": {
+    "launch": {
+      "web_url": "http://traductor.softcatala.org/webapp"
+    }
+  }
+}
