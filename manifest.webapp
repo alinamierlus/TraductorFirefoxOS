@@ -15,13 +15,13 @@
   "installs_allowed_from": ["*"],
   "appcache_path": "/webapp/cache.manifest",
   "permissions": {
-   "network-http": {
-    "description": "Required for connecting to Softcatalà servers",
-   },
-   "storage": {
-    "description": "Required for storing past translations"
-   }
-  },
+    "network-http": {
+      "description": "Required to contact translation server"
+    },
+    "storage": {
+      "description": "Required to store past translations"
+    }
+  }
   "locales": {
     "es": {
       "description": "Aplicación móvil del traductor de Softcatalà",
