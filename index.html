@@ -26,7 +26,10 @@
 	  <form id="ftraductor" action="#">
 	   <div id="inter">
 	   <div id="langpairdiv">
-	   <input id="neteja" value="Clear" title="Neteja els camps de text" type="button" />
+	     <div id="langpairdiv-left">
+	      <input id="neteja" value="Clear" title="Neteja els camps de text" type="button" />
+	     </div>
+	   <div id="langpairdiv-center">
 	   <select id="langpair">
 	      <option value="es-ca" selected="selected">castellà » català</option>
 	      <option value="ca-es">català » castellà</option>
@@ -37,8 +40,11 @@
 	      <option value="pt-ca">portuguès » català (beta)</option>
 	      <option value="ca-pt">català » portuguès (beta)</option>
 	  </select>
+	  </div>
+	  <div id="langpairdiv-right">
 	   <input id="tradueix" value="Translate" type="submit" />
-	   </div>
+	  </div>
+	  </div>
 	  <div id="warninternet"></div>
 	  <div id="area">
 	  <textarea maxlength="4000" name="sl" rows="12" cols="40" id="sl"></textarea>

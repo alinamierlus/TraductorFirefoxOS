@@ -45,9 +45,14 @@ button.back { background: transparent url(../img/back.png) no-repeat center cent
     width: 100%;
 }
 #area, #inter {clear:left;}
-#langpairdiv #neteja { float: left; }
-#langpairdiv #langpair { text-align: center; float: center; }
-#langpairdiv #tradueix { float: right; }
+#langpairdiv { height: 3em; }
+#langpairdiv input, #langpairdiv select { display: block; }
+#langpairdiv-left { width:20%; float: left; }
+#langpairdiv-left input { text-align: left;  margin: 0 auto 0 0; height: 3em; }
+#langpairdiv-center { width: 60%;  float: left;  }
+#langpairdiv-center select { width: 100%; height: 3em; margin: 0 auto; }
+#langpairdiv-right {  width:20%; float: left; }
+#langpairdiv-right input { text-align: right; margin: 0 0 0 auto; height: 3em; }
 textarea {margin: 0 auto; display:block; width: 90%; font-size: 1.2em;}
 #buttons, #opcions {margin: 1.5em auto 1.3em; display:block; text-align:center;}
 #inter select {font-size:100%;}
