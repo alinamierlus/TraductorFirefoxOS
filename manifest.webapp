@@ -21,7 +21,7 @@
    "storage": {
     "description": "Required for storing past translations"
    }
-  }
+  },
   "locales": {
     "es": {
       "description": "Aplicación móvil del traductor de Softcatalà",
