@@ -1,32 +1,40 @@
 {
   "version": "0.1",
   "name": "Traductor Softcatalà",
-  "description": "Aplicació mòbil del traductor de Softcatalà",
+  "description": "Softcatalà's Mobile App Translator",
   "launch_path": "/",
   "icons": {
-    "16": "/img/icons/mortar-16.png",
-    "48": "/img/icons/mortar-48.png",
-    "128": "/img/icons/mortar-128.png"
+    "16": "/img/icons/softcatala-16.png",
+    "48": "/img/icons/softcatala-48.png",
+    "128": "/img/icons/softcatala-128.png"
   },
   "developer": {
-    "name": "Toni Hermoso Pulido",
-    "url": "http://www.softcatala.org/wiki/Toniher"
+    "name": "Softcatalà",
+    "url": "http://traductor.softcatala.org"
   },
   "installs_allowed_from": ["*"],
   "appcache_path": "/cache.manifest",
+  "permissions": {
+   "network-http": {
+    "description": "Required for connecting to Softcatalà servers",
+   },
+   "storage": {
+    "description:" "Required for storing past translations"
+   }
+  }
   "locales": {
     "es": {
-      "description": "Su nueva aplicación impresionante Open Web",
+      "description": "Aplicación móvil del traductor de Softcatalà",
       "developer": {
-        "url": "http://yourawesomeapp.com"
+        "url": "http://traductor.softcatala.org"
       }
     },
-    "it": {
-      "description": "Il vostro nuovo fantastico Open Web App",
+    "ca": {
+      "description": "Aplicació mòbil del traductor de Softcatalà",
       "developer": {
-        "url": "http://yourawesomeapp.com"
+        "url": "http://traductor.softcatala.org"
       }
     }
   },
-  "default_locale": "ca"
+  "default_locale": "en"
 }

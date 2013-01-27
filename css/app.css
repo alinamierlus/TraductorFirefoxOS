@@ -193,7 +193,7 @@ button.back { background: transparent url(../img/back.png) no-repeat center cent
 #langpairdiv #neteja { float: left; }
 #langpairdiv #langpair { text-align: center; float: center; }
 #langpairdiv #tradueix { float: right; }
-textarea {margin: 0 auto; display:block; width: 90%; font-size: 0.9em;}
+textarea {margin: 0 auto; display:block; width: 90%; font-size: 1.2em;}
 #buttons, #opcions {margin: 1.5em auto 1.3em; display:block; text-align:center;}
 #inter select {font-size:100%;}
 #buttons input {font-size:1.2em; padding: 0.4em;}
