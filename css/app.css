@@ -146,7 +146,7 @@ x-listview > ._contents > .contents {
 @keyframes slideIn {
   
 }
-x-view > header { background: -moz-linear-gradient(center top , #D10E08, #941413) repeat scroll 0 0 transparent; }
+x-view > header { background: -moz-linear-gradient(center top , #D10E08, #941413) repeat scroll 0 0 transparent !important; }
 x-view > header button { 
 	background: transparent no-repeat center center;
 }

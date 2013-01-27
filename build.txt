@@ -22,6 +22,8 @@ js/lib/../app.js
 ----------------
 js/lib/zepto.js
 js/lib/receiptverifier.js
+js/lib/install.js
+js/lib/../install-button.js
 js/lib/x-tag.js
 js/lib/underscore.js
 js/lib/backbone.js
@@ -32,8 +34,5 @@ js/lib/layouts/footer.js
 js/lib/layouts/view.js
 js/lib/layouts/list.js
 js/lib/layouts/layouts.js
-js/lib/install.js
-js/lib/../install-button.js
-js/lib/l10n.js
 js/lib/../traductor.js
 js/lib/../app.js
