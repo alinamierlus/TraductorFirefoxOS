@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# SXZOFn4r+NfGpUA28IRGxINcVtk=
+# juASVtI5yVkr8im0v+IMKKnjgBk=
 
 CACHE:
 css/install-button.css
@@ -16,7 +16,6 @@ js/lib/layouts/css/layouts.less
 js/lib/layouts/css/layouts.css
 js/lib/layouts/README.md
 js/lib/require.js
-js/lib/l10n.js
 js/init.js
 js/app.js
 manifest.json
