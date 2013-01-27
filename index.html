@@ -26,9 +26,6 @@
 	  <form id="ftraductor" action="#">
 	   <div id="inter">
 	   <div id="langpairdiv">
-	     <div id="langpairdiv-left">
-	      <input id="neteja" value="Clear" title="Neteja els camps de text" type="button" />
-	     </div>
 	   <div id="langpairdiv-center">
 	   <select id="langpair">
 	      <option value="es-ca" selected="selected">castellà » català</option>
@@ -51,8 +48,9 @@
 	  </div><input type="hidden" value=true name="unkwown" id="unknown" /><input type="hidden" value=fase name="valencia" id="valencia" />
 	  </div>
 	  </form>
-	<div data-l10n-id="translation-header" id="dv_traduccio" style="display: none;">
-	<h3>Translation<span id="trad_info"></span></h3>
+	<div id="dv_traduccio" style="display: none;">
+	<h3>Translation</h3>
+	<div class="button-clear"><button id="neteja">Clear</button></div>	
 	<textarea id="traduccio" rows="12" cols="40" ></textarea>
 	</div>
     <!-- Use this installation button to install locally without going
