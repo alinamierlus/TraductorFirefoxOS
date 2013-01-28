@@ -1,7 +1,7 @@
 {
   "version": "0.1",
   "name": "Traductor",
-  "description": "Softcatalà's Translator webapp",
+  "description": "Softcatala's Translator webapp",
   "launch_path": "/webapp/",
   "icons": {
     "16": "/webapp/img/icons/softcatala-16.png",
@@ -9,7 +9,7 @@
     "128": "/webapp/img/icons/softcatala-128.png"
   },
   "developer": {
-    "name": "Softcatalà",
+    "name": "Softcatala",
     "url": "http://traductor.softcatala.org"
   },
   "installs_allowed_from": ["*"],
